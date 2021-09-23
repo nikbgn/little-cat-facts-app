@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Puritan:ital@1&family=Rowdies&display=swap');
+
+*{
+    -webkit-app-region: no-drag;
+    user-select: none;
+}
+#right-side{
+    float: right;
+    position: relative;
+
+}
+
+#left-side{
+    
+    position: absolute;
+    white-space: normal;
+    width: 500px;
+    height: 500px;
+    
+    
+    float: left;
+
+}
+
+#factBold{
+    margin-left: 48%;
+    padding-top: 8%;
+    color: #61B7D2;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+#fact::-webkit-scrollbar{
+    display: none;
+}
+
+#fact{
+    padding-left: 20px;
+    background: #33C5F4;
+    color: #444078;
+    border-radius: 23px;
+    overflow-y:scroll; height:200px;
+    margin-left: 30%;
+    font-family: Port Lligat Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+}
+img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    
+    margin-left: 20%;
+}
+
+#factButton{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    border:none;
+    color: white;
+    margin-left: 30%;
+    background: #0CCBFF;
+    border-radius: 50px;
+    font-family: Puritan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
